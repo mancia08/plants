@@ -1,4 +1,4 @@
-# Travel Safer React App
+# Hackathon React App
 
 | Team members       |
 | ------------------ |
