@@ -8,8 +8,6 @@ class Provider extends Component {
     }
 
     test = () => { console.log(this.state.example)
-    this.setState({example: "hi"})
-console.log(this.state.example)
 }
 
 render () {
@@ -22,3 +20,4 @@ render () {
     </Context.Provider>
 }
 }
+export default Provider
