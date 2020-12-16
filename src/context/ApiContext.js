@@ -4,15 +4,19 @@ export const ApiContext = React.createContext();
 
 class ApiProvider extends Component {
   state = {
-    example: "apliexample",
-    data: [],
+    apiData: [],
   };
   /* functions */
   test = () => {
-    console.log(this.state.example);
+    console.log(this.state.apiData);
   };
   /* api calls */
-  componentDidMount() {}
+  componentDidMount() {
+      /* add your api link inside fetch */
+      fetch("https://api.chucknorris.io/jokes/random")
+      .then(response => response.json())
+      .then(data => this.setState({apiData: data}))
+  }
 
   render() {
     return (
