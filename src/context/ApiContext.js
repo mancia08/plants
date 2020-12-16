@@ -3,22 +3,18 @@ import React, { Component } from "react";
 export const ApiContext = React.createContext();
 
 class ApiProvider extends Component {
-    /* STATE */
+  /* STATE */
   state = {
     apiData: [],
+    isLoaded: false,
   };
-  
-  /* FUNCTIONS */
-  /* test = () => {
-    console.log(this.state.apiData);
-  }; */
 
   /* API CALL */
   componentDidMount() {
-      /* add your api link inside fetch */
-      fetch("https://api.chucknorris.io/jokes/random")
-      .then(response => response.json())
-      .then(data => this.setState({apiData: data}))
+    /* add your api link inside fetch */
+    fetch("https://api.chucknorris.io/jokes/random")
+      .then((response) => response.json())
+      .then((data) => this.setState({ apiData: data, isLoaded: true }));
   }
 
   render() {
@@ -26,8 +22,6 @@ class ApiProvider extends Component {
       <ApiContext.Provider
         value={{
           state: this.state,
-          /* test: this.test, */
-          /* if you write new functions write them here as i did with the test function */
         }}
       >
         {this.props.children}
