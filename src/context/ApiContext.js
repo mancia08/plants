@@ -3,14 +3,17 @@ import React, { Component } from "react";
 export const ApiContext = React.createContext();
 
 class ApiProvider extends Component {
+    /* STATE */
   state = {
     apiData: [],
   };
-  /* functions */
-  test = () => {
+  
+  /* FUNCTIONS */
+  /* test = () => {
     console.log(this.state.apiData);
-  };
-  /* api calls */
+  }; */
+
+  /* API CALL */
   componentDidMount() {
       /* add your api link inside fetch */
       fetch("https://api.chucknorris.io/jokes/random")
@@ -23,7 +26,7 @@ class ApiProvider extends Component {
       <ApiContext.Provider
         value={{
           state: this.state,
-          test: this.test,
+          /* test: this.test, */
           /* if you write new functions write them here as i did with the test function */
         }}
       >
