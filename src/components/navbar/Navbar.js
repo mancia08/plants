@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => (
-    /* IF YOU CHANGE THE LINK TO... REMEMBER TO CHANGE IT ON APP.JS ROUTE AS WELL. */
+  /* IF YOU CHANGE THE LINK TO... REMEMBER TO CHANGE IT ON APP.JS ROUTE AS WELL. */
   <nav>
     <Link to="/">HOME</Link>
     <Link to="/page1">PAGE1</Link>
