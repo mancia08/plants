@@ -1,28 +1,48 @@
 body {
-  text-align: center;
+    text-align: center;
 }
 h1 {
-  text-align: center;
-  margin: 2rem;
+    color: rgb(75, 1, 7);
+    text-shadow: -2px -2px #ffffffbd;
+    text-align: center;
+    margin: 2rem;
+}
+.backgroundContainer {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url("https://www.nationalgeographic.com/content/dam/news/2016/05/26/caveart/02-cave-art.jpg");
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-attachment: fixed;
+    width: 100vw;
 }
 .flexContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+    width:100%;
 }
 .plantContainer {
-  margin: 2rem auto;
-  max-width: 45%;
+    margin: 2rem auto;
+    max-width:45%;
+    width: 60%;
+    
 }
 #pageOneImage {
-  margin: 0 auto;
-  padding: 0;
-  max-width: 50%;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin:0 auto;
+    padding:0;
+    max-width: 100%;
 }
 h3 {
-  margin: 2rem;
-  padding: 0;
+    color: rgb(75, 1, 7);
+    text-shadow: -2px -2px #ffffffbd;
+    font-size:27px;
+    margin: 2rem;
+    padding:0;
 }

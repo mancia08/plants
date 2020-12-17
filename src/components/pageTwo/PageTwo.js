@@ -25,7 +25,7 @@ class PageTwo extends Component {
 
   render() {
     return (
-      <div>
+      <div className="backgroundContainer">
         <Navbar />
         <h1>Edible Plants</h1>
         <div className="flexContainer">
