@@ -3,6 +3,10 @@ import Footer from "./../footer/Footer";
 import { Context } from "./../../context/Context";
 import { ApiContext } from "../../context/ApiContext";
 
+
+/* WHEN YOU NEED DATA OF API CALL FOR api.something WHEN YOU NEED DATA FROM CONTEXT CALL value.something */
+
+
 const PageFive = () => (
   <Context.Consumer>
     {(value) => (
@@ -10,14 +14,9 @@ const PageFive = () => (
         {(api) => (
           <>
             <Navbar />
-            <h1>I AM 5</h1>
-            <button onClick={value.test}>
-              context function run example. i console log the world example
-            </button>
-            <button onClick={api.test}>
-              api context function run example. i console log the world
-              apicontext
-            </button>
+            <>
+            MY CONTENT
+            </>
             <Footer />
           </>
         )}
