@@ -2,7 +2,7 @@
 
 | Team members       |
 | ------------------ |
-| Alfred Castillo    |
+| [Alfred Castillo](https://github.com/aCastilloNL)    |
 | [Jean-Loup Cayuela](https://github.com/j-loup30400)  |
 | [Naomi Carey](https://github.com/naomi-carey)        |
 | [mancia08](https://github.com/mancia08)           |
