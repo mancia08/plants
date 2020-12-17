@@ -4,7 +4,7 @@ import Landing from "./components/landing/Landing";
 import PageTwo from "./components/pageTwo/PageTwo";
 import PageThree from "./components/pageThree/PageThree";
 
-import './App.css';
+import "./App.css";
 
 const App = () => (
   /* NOTE. IF YOU WANT TO CHANGE THE LINK: CHANGE IT HERE AND INSIDE LINK IN NAVBAR.JS */
