@@ -3,10 +3,10 @@
 | Team members       |
 | ------------------ |
 | Alfred Castillo    |
-| Jean-Loup Cayuela  |
-| Naomi Carey        |
-| Teiko Mancini      |
-| Ioan Lungu Tranole |
+| [Jean-Loup Cayuela](https://github.com/j-loup30400)  |
+| [Naomi Carey](https://github.com/naomi-carey)        |
+| [mancia08](https://github.com/mancia08)           |
+| [Ioan Lungu Tranole](https://github.com/IoanLT) |
 
 <p>&nbsp;</p>
 
