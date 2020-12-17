@@ -22,14 +22,16 @@ render(){
   return(
     <div>
       <Navbar />
-      <h1 className="titleNot">Not Edible</h1>
+      <h1>Not Edible</h1>
+      <div className='flexContainer'>
       {
       this.state.notEdible.map((names, index) =>
-      <div key={index}>
-        <h2 className="nameNot">{names.common_name}</h2>
-        <img className="imgNot  " src={names.image_url} alt={names.scientific_name}></img>
+      <div className='plantContainer' key={index}>
+        <h3>{names.common_name}</h3>
+        <img id='pageOneImage' src={names.image_url} alt={names.scientific_name}></img>
       </div>
       )}
+      </div>
       <Footer />
     </div>
   )
