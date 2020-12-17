@@ -7,7 +7,7 @@ class PageThree extends Component{
   }
   // "https://trefle.io/api/v1/plants?token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA"
 componentDidMount(){
-  fetch("https://trefle.io/api/v1/plants?&token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&filter[toxicity]=hight")
+  fetch("https://trefle.io/api/v1/plants?token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&")
   .then(res => res.json())
   .then(data => 
     this.setState({
