@@ -1,0 +1,31 @@
+
+.header--navigation {
+    /* Primary colour */
+    --primary-colour: #0c5e3c;
+
+    /* Secundary colour */
+    --secundary-colour: #f1f1f1;
+
+    /* Vivid green */
+    --pale-green: #87f395;
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--secundary-colour);
+    /* background-color: transparent; */
+}
+
+.header--navigation a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--primary-colour);
+}
+
+.header--navigation a {
+    cursor: pointer;
+}
+
