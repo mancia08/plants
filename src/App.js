@@ -7,6 +7,8 @@ import PageThree from "./components/pageThree/PageThree";
 import PageFour from "./components/pageFour/PageFour";
 import PageFive from "./components/pageFive/PageFive";
 
+import './App.css';
+
 const App = () => (
   /* NOTE. IF YOU WANT TO CHANGE THE LINK: CHANGE IT HERE AND INSIDE LINK IN NAVBAR.JS */
   <Switch>
