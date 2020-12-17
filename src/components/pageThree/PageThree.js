@@ -27,7 +27,7 @@ render(){
       this.state.notEdible.map((names, index) =>
       <div key={index}>
         <h2 className="nameNot">{names.common_name}</h2>
-        <img className="imgNot" src={names.image_url} alt={names.scientific_name}></img>
+        <img className="imgNot  " src={names.image_url} alt={names.scientific_name}></img>
       </div>
       )}
       <Footer />
