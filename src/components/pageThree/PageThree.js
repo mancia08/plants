@@ -26,20 +26,20 @@ class PageThree extends Component {
         <Navbar />
         <h1 className="titleNot">Not Edible</h1>
         <div className="flexContainer">
-        {this.state.notEdible.map((names, index) => (
-          <div className="flexItem" key={index}>
-            <h2 className="nameNot">{names.common_name}</h2>
-            <img
-              className="imgNot"
-              src={names.image_url}
-              alt={names.scientific_name}
-            ></img>
-          </div>
-        ))}
+          {this.state.notEdible.map((names, index) => (
+            <div className="flexItem" key={index}>
+              <h2 className="nameNot">{names.common_name}</h2>
+              <img
+                className="imgNot"
+                src={names.image_url}
+                alt={names.scientific_name}
+              ></img>
+            </div>
+          ))}
         </div>
         <Footer />
       </div>
     );
   }
 }
- export default PageThree
+export default PageThree;
