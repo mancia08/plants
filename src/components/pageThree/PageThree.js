@@ -22,15 +22,15 @@ class PageThree extends Component {
 
   render() {
     return (
-      <div>
+      <div className="backgroundContainer">
         <Navbar />
-        <h1 className="titleNot">Not Edible</h1>
+        <h1>Not Edible</h1>
         <div className="flexContainer">
           {this.state.notEdible.map((names, index) => (
-            <div className="flexItem" key={index}>
-              <h2 className="nameNot">{names.common_name}</h2>
+            <div className="plantContainer" key={index}>
+              <h3>{names.common_name}</h3>
               <img
-                className="imgNot"
+                id="pageOneImage"
                 src={names.image_url}
                 alt={names.scientific_name}
               ></img>
