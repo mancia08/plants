@@ -43,6 +43,11 @@ body {
 .footer__logo {
   font-weight: 400;
   font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.footer_contact {
+  margin-bottom: 20px;
 }
 
 .footer__addr h2 {
@@ -100,8 +105,9 @@ body {
 }
 
 .nav__ul a {
-  /* color: #999; */
-  color: #408697;
+  color: #999;
+  /* color: #408697; */
+  /* color: #0c5e3c; */
 }
 
 .nav__ul--extra {
@@ -142,4 +148,20 @@ body {
   .footer__nav {
     flex: 2 0px;
   }
+}
+
+.nav-github {
+  color: gray;
+}
+.footer__logo {
+  color: gray;
+}
+
+.footer-contact {
+  color: gray;
+}
+
+.nav__title {
+  color: grey;
+  font-weight: 800;
 }
