@@ -3,10 +3,13 @@ import React, { Component } from "react";
 export const Context = React.createContext();
 
 class Provider extends Component {
+
+/* STATE */
   state = {
     example: "example",
   };
 
+  /* FUNCTIONS */
   test = () => {
     console.log(this.state.example);
   };
