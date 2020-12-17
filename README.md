@@ -4,9 +4,9 @@
 | ------------------ |
 | Alfred Castillo    |
 | [Jean-Loup Cayuela](https://github.com/j-loup30400)  |
-| Naomi Carey        |
-| mancia08           |
-| Ioan Lungu Tranole |
+| [Naomi Carey](https://github.com/naomi-carey)        |
+| [mancia08](https://github.com/mancia08)           |
+| [Ioan Lungu Tranole](https://github.com/IoanLT) |
 
 <p>&nbsp;</p>
 
