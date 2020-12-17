@@ -25,8 +25,9 @@ class PageThree extends Component {
       <div>
         <Navbar />
         <h1 className="titleNot">Not Edible</h1>
+        <div className="flexContainer">
         {this.state.notEdible.map((names, index) => (
-          <div key={index}>
+          <div className="flexItem" key={index}>
             <h2 className="nameNot">{names.common_name}</h2>
             <img
               className="imgNot"
@@ -35,6 +36,7 @@ class PageThree extends Component {
             ></img>
           </div>
         ))}
+        </div>
         <Footer />
       </div>
     );
