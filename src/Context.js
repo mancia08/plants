@@ -13,10 +13,10 @@ class Provider extends Component {
   componentDidMount() {
     Promise.all([
       fetch(
-        "https://trefle.io/api/v1/plants?token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&"
+        "https://cors-anywhere.herokuapp.com/trefle.io/api/v1/plants?token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&"
       ),
       fetch(
-        "https://trefle.io/api/v1/plants?&token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&filter[edible]=true"
+        "https://cors-anywhere.herokuapp.com/trefle.io/api/v1/plants?&token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&filter[edible]=true"
       ),
     ])
       .then(([res1, res2]) => Promise.all([res1.json(), res2.json()]))
