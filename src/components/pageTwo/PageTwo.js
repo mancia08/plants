@@ -1,6 +1,6 @@
 import Navbar from "./../navbar/Navbar";
 import Footer from "./../footer/Footer";
-import "../pageThree/PageThree"
+import "../pageThree/PageThree";
 import { Context } from "../../Context";
 
 const PageThree = () => (
