@@ -17,4 +17,11 @@
 
 body {
   font-family: "Nunito", sans-serif;
+  width: 100vw;
 }
+
+main{width:100vw}
+
+/* #root {
+  max-width: 768px;
+} */
