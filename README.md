@@ -14,11 +14,11 @@
 npm install
 ```
 ## :green_book: Table of Contents
-- [:paperclip: Install](#install)
-- [:green_book: Table of Contents](#table-of-contents)
-- [:dancers: The Team](#the-team)
-- [:round_pushpin: Scope](#scope)
-- [:question: About](#about)
+- [:paperclip: Install](##install)
+- [:green_book: Table of Contents](##table-of-contents)
+- [:dancers: The Team](##the-team)
+- [:round_pushpin: Scope](##scope)
+- [:question: About](##about)
 
 ## :dancers: The Team
 | Team members       |
