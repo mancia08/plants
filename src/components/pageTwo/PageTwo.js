@@ -11,12 +11,14 @@ const apiCaller = (url) => fetch(url).then((result) => result.json());
 class PageTwo extends Component {
   state = {
     ediblePlant: [],
+    apiLoading: true,
   };
 
   componentDidMount() {
     apiCaller(ediblePlants).then((data) =>
       this.setState({
         ediblePlant: data.data,
+        apiLoading: false,
       })
     );
   }
@@ -27,16 +29,19 @@ class PageTwo extends Component {
         <Navbar />
         <h1>Edible Plants</h1>
         <div className="flexContainer">
-          {this.state.ediblePlant.map((iterator, index) => (
+          {this.state.apiLoading ? (<h1>Api Loading ...</h1>
+           ) :
+           (
+          this.state.ediblePlant.map((iterator, index) => (
             <div className="plantContainer" key={index}>
               <h3>{iterator.common_name}</h3>
               <img
-                id="pageOneImage"
+                id="pageImage"
                 src={iterator.image_url}
                 alt={iterator.scientific_name}
               ></img>
             </div>
-          ))}
+          )))}
         </div>
         <Footer />
       </div>
