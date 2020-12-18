@@ -49,4 +49,4 @@ We believe most likely many humans from this era made the fatal mistake of not p
 With this application we will be saving lives and tepee toilets by giving our users an application that allows them to:
 - Properly identify your plant source via an image
 - Identify species, common name and family of the plant
-- Determine if the plant is toxic or not.
+- Determine if the plant is edible or not.

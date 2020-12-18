@@ -19,7 +19,7 @@ const PageThree = () => (
               <div className="plantContainer" key={index}>
                 <h3>{names.common_name}</h3>
                 <img
-                  id="pageOneImage"
+                  id="pageImage"
                   src={names.image_url}
                   alt={names.scientific_name}
                 ></img>
