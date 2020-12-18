@@ -15,6 +15,7 @@ h1 {
     background-position: contain;
     background-attachment: fixed;
     width: 100vw;
+    min-height:100vh
 }
 .flexContainer {
     display: flex;
@@ -28,7 +29,6 @@ h1 {
     margin: 2rem auto;
     max-width:45%;
     width: 60%;
-    
 }
 #pageImage {
         border-radius: 50%;
