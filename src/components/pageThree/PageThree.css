@@ -1,51 +1,60 @@
 body {
-    text-align: center;
+  text-align: center;
 }
 h1 {
-    color: rgb(75, 1, 7);
-    text-shadow: -2px -2px #ffffffbd;
-    text-align: center;
-    margin: 2rem;
+  color: rgb(75, 1, 7);
+  text-shadow: -2px -2px #ffffffbd;
+  text-align: center;
+  margin: 2rem;
 }
 .backgroundContainer {
-    background:
-    linear-gradient( rgba(255, 255, 255, 0.3), rgb(255, 255, 255,0.3)), 
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0.3)),
     url("https://www.nationalgeographic.com/content/dam/news/2016/05/26/caveart/02-cave-art.jpg");
-    background-repeat: no-repeat;
-    background-position: contain;
-    background-attachment: fixed;
-    width: 100vw;
-    min-height:100vh;
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-attachment: fixed;
+  width: 100vw;
+  min-height: 100vh;
+}
+.spinner-container {
+  width: 100vw;
+  height: 80vh;
+  display:flex;
+  justify-content: flex-start;
+  flex-direction:column
+}
+.spinner {
+    color: white;
+    text-align:center;
+    font-size:3rem
 }
 .flexContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin:0;
-    padding:0;
-    width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 .plantContainer {
-    margin: 2rem auto;
-    max-width:45%;
-    width: 60%;
-    
+  margin: 2rem auto;
+  max-width: 45%;
+  width: 60%;
 }
 #pageImage {
-    border-radius: 100%;
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    margin:0 auto;
-    padding:0;
-    max-width: 100%;
+  border-radius: 100%;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
 }
-h3 {  
-    color: rgb(75, 1, 7);
-    text-shadow: -2px -2px #ffffffbd;
-    font-size:27px;
-    margin: 2rem;
-    padding:0;
+h3 {
+  color: rgb(75, 1, 7);
+  text-shadow: -2px -2px #ffffffbd;
+  font-size: 27px;
+  margin: 2rem;
+  padding: 0;
 }
-
