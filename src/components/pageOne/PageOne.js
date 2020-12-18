@@ -43,9 +43,11 @@ const PageOne = () => (
       not properly identifying a poisonous plant, herb or berry. With this
       application we will be saving lives and tepee toilets by giving our users
       an application that allows them to:
+      <br />
+      <br />
       <Bullets>Properly identify your plant source via an image</Bullets>
-      <Bullets>Know species, common name and family of the plant</Bullets>
-      <Bullets>Know the toxicity level</Bullets>
+      <Bullets>Identify species, common name and family of the plant</Bullets>
+      <Bullets>Determine if the plant is toxic or not.</Bullets>
     </Text>
     <Footer />
   </>
