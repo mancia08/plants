@@ -8,7 +8,7 @@ const PageThree = () => (
     {(value) => (
       <div className="backgroundContainer">
         <Navbar />
-        <h1>Not Edible</h1>
+        <h1 className="edible-title">Not Edible</h1>
         <div className="flexContainer">
           {value.state.isLoading ? (
             <div className="spinner-container">
