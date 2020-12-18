@@ -1,15 +1,12 @@
 /* @import url("https://fonts.google.com/specimen/Nunito?query=nunito&sidebar.open=true&selection.family=Nunito:wght@200;300;400;600;700");
-
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
-
 html {
   font-size: 100%;
 }
-
 body {
   font-family: "Nunito", sans-serif;
   margin: 0;
@@ -89,7 +86,6 @@ body {
 /* .footer > * {
   flex: 1 100%;
 }
-
 .footer__addr {
   margin-right: 1.25em;
   margin-bottom: 2em;
@@ -118,20 +114,15 @@ body {
 /* .footer_contact {
   margin-bottom: 20px;
 }
-
-
-
 .footer__addr h2 {
   margin-top: 1.3em;
   font-size: 15px;
   font-weight: 400;
 }
-
 .nav__title {
   font-weight: 400;
   font-size: 15px;
 }
-
 .footer address {
   font-style: normal;
   color: #999;
@@ -221,36 +212,29 @@ body {
     margin-left: auto;
   }
 }
-
 @media screen and (min-width: 40.375em) {
   .footer__nav > * {
     flex: 1;
   }
-
   .nav__item--extra {
     flex-grow: 2;
   }
-
   .footer__addr {
     flex: 1 0px;
   }
-
   .footer__nav {
     flex: 2 0px;
   }
 }
-
 .nav-github {
   color: gray;
 }
 .footer__logo {
   color: gray;
 }
-
 .footer-contact {
   color: gray;
 }
-
 .nav__title {
   color: grey;
   font-weight: 800;
