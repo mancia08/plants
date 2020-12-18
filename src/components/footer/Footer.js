@@ -72,7 +72,7 @@ const Footer = () => {
                   href="https://github.com/naomi-carey" 
                   target="_blank" 
                   rel="noreferrer"> 
-                  Teiko Mancini
+                  Mancini Roberta
                 </a>
               </li>
 
