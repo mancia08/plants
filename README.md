@@ -3,16 +3,16 @@
 ![React](https://aleen42.github.io/badges/src/react.svg)
 ![React-Router](https://aleen42.github.io/badges/src/router.svg)
 
-## Install
+## :paperclip: Install
 ```bash
 npm install
 ```
-## Table of Contents
-- [Install](#install)
-- [Table of Contents](#table-of-contents)
-- [:seedling: The Team](#dancers-the-team)
-- [:lock: Scope](#scope)
-- [About](#about)
+## :green_book: Table of Contents
+- [:paperclip: Install](#install)
+- [:green_book: Table of Contents](#table-of-contents)
+- [:dancers: The Team](#the-team)
+- [:round_pushpin: Scope](#scope)
+- [:question: About](#about)
 
 ## :dancers: The Team
 | Team members       |
@@ -25,7 +25,7 @@ npm install
 
 <p>&nbsp;</p>
 
-## Scope
+## :round_pushpin: Scope
 
 To create a site using React and an API in the time frame of 24 hours. The following requirements are:
 
@@ -35,7 +35,7 @@ To create a site using React and an API in the time frame of 24 hours. The follo
 - Adaptive (Responsive Design)
 - Clean/Valid code
 
-## About
+## :question: About
 
 We decided to create a small APP where the user could se....WRITE SOMETHING
 
