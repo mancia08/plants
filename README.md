@@ -1,5 +1,20 @@
-# Hackathon React App
+# :seedling: Hackathon React App
+![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
+![React](https://aleen42.github.io/badges/src/react.svg)
+![React-Router](https://aleen42.github.io/badges/src/router.svg)
 
+## Install
+```bash
+npm install
+```
+## Table of Contents
+- [Install](#install)
+- [Table of Contents](#table-of-contents)
+- [:seedling: The Team](#dancers-the-team)
+- [:lock: Scope](#scope)
+- [About](#about)
+
+## :dancers: The Team
 | Team members       |
 | ------------------ |
 | [Alfred Castillo](https://github.com/aCastilloNL)    |
@@ -19,6 +34,10 @@ To create a site using React and an API in the time frame of 24 hours. The follo
 - Consume and API
 - Adaptive (Responsive Design)
 - Clean/Valid code
+
+## About
+
+We decided to create a small APP where the user could se....WRITE SOMETHING
 
 <p>&nbsp;</p>
 
