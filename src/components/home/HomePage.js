@@ -4,7 +4,7 @@ import "./Homepage.css";
 
 const HomePage = (props) => (
   <section className="homepage--section">
-    <h1>Back to Nature !</h1>
+    <h1 className="title">Back to Nature !</h1>
     <h2>Find the plants you need, to stay alive...</h2>
     <button className="homepage--btn" onClick={props.action}>
       Take a look
