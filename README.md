@@ -3,6 +3,12 @@
 ![React](https://aleen42.github.io/badges/src/react.svg)
 ![React-Router](https://aleen42.github.io/badges/src/router.svg)
 
+<p>&nbsp;</p>
+
+![alt text](https://media.istockphoto.com/photos/hackathon-technology-threat-online-coding-2d-illustration-picture-id1046165806)
+
+<p>&nbsp;</p>
+
 ## :paperclip: Install
 ```bash
 npm install
@@ -38,7 +44,3 @@ To create a site using React and an API in the time frame of 24 hours. The follo
 ## :question: About
 
 We decided to create a small APP where the user could se....WRITE SOMETHING
-
-<p>&nbsp;</p>
-
-![alt text](https://media.istockphoto.com/photos/hackathon-technology-threat-online-coding-2d-illustration-picture-id1046165806)
