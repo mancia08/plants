@@ -8,8 +8,8 @@ h1 {
     margin: 2rem;
 }
 .backgroundContainer {
-    background-image:
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    background:
+    linear-gradient( rgba(255, 255, 255, 0.3), rgb(255, 255, 255,0.3)), 
     url("https://www.nationalgeographic.com/content/dam/news/2016/05/26/caveart/02-cave-art.jpg");
     background-repeat: no-repeat;
     background-position: contain;
@@ -29,16 +29,16 @@ h1 {
     margin: 2rem auto;
     max-width:45%;
     width: 60%;
-    
 }
-#pageOneImage {
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    margin:0 auto;
-    padding:0;
-    max-width: 100%;
+#pageImage {
+        border-radius: 50%;
+        border: 1px solid black;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin:0 auto;
+        padding:0;
+        max-width: 100%;
 }
 h3 {
     color: rgb(75, 1, 7);
@@ -47,3 +47,4 @@ h3 {
     margin: 2rem;
     padding:0;
 }
+
