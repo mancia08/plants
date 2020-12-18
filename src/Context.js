@@ -11,25 +11,22 @@ class Provider extends Component {
   };
 
   componentDidMount() {
-    fetch(
-      "https://trefle.io/api/v1/plants?token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&"
-    )
-      .then((res) => res.json())
-      .then((data) =>
+    Promise.all([
+      fetch(
+        "https://trefle.io/api/v1/plants?token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&"
+      ),
+      fetch(
+        "https://trefle.io/api/v1/plants?&token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&filter[edible]=true"
+      ),
+    ])
+      .then(([res1, res2]) => Promise.all([res1.json(), res2.json()]))
+      .then(([data1, data2]) => {
         this.setState({
-          notEdible: data.data,
-        })
-      );
-  }
-
-  componentDidUpdate() {
-    fetch(
-      "https://trefle.io/api/v1/plants?&token=lFM81UTKUliWbUM-9QDM0m3X8jPYbyFlAQrIQAFcRZA&filter[edible]=true"
-    )
-      .then((res) => res.json())
-      .then((data) =>
-        this.setState({ ediblePlant: data.data, isLoading: false })
-      );
+          ediblePlant: data2.data,
+          notEdible: data1.data,
+          isLoading: false,
+        });
+      });
   }
 
   closeLanding = () => this.setState({ isLandingOpen: false });
