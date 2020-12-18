@@ -9,12 +9,15 @@
     /* Vivid green */
     --pale-green: #87f395;
 
+    top: 0;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--secundary-colour);
+    position: fixed;    
+    z-index: 999;
     /* background-color: transparent; */
 }
 
