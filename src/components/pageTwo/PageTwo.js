@@ -11,7 +11,9 @@ const PageThree = () => (
         <h1>Edible</h1>
         <div className="flexContainer">
           {value.state.isLoading ? (
-            <p className="spinner">LOADING PAGE!</p>
+            <div className="spinner-container">
+              <p className="spinner">LOADING PAGE!</p>
+            </div>
           ) : (
             value.state.ediblePlant.map((names, index) => (
               <div className="plantContainer" key={index}>
