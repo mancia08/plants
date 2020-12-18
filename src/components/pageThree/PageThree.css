@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   margin: 2rem;
 }
+.edible-title {margin-top: calc(80px)}
 .backgroundContainer {
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0.3)),
     url("https://www.nationalgeographic.com/content/dam/news/2016/05/26/caveart/02-cave-art.jpg");
