@@ -1,6 +1,5 @@
 import HomePage from "../home/HomePage";
 import PageOne from "../pageOne/PageOne";
-import React, { Component } from "react";
 import { Context } from "../../Context";
 
 const Landing = () => (
